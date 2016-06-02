@@ -46,21 +46,6 @@ public abstract class BaseBestActivity extends BaseFragmentActivity {
     public     TextView rightTitle;
     public  McoyScrollView productDetailScrollview;
 
-    public TextView getCenterTitle() {
-        return centerTitle;
-    }
-
-    public void setCenterTitle(TextView centerTitle) {
-        this.centerTitle = centerTitle;
-    }
-
-    public Context getmContext() {
-        return mContext;
-    }
-
-    public void setmContext(Context mContext) {
-        this.mContext = mContext;
-    }
 
     public abstract void dosetPromo();
 
