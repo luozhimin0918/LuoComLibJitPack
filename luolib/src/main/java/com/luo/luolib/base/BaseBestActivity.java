@@ -31,7 +31,7 @@ public abstract class BaseBestActivity extends BaseFragmentActivity {
      * RecyclerView
      */
     XRecyclerView mRecyclerView;
-     TextView centerTitle;
+    public TextView centerTitle;
     LinearLayout networkInfo;
      ImageView errorInfo;
     LinearLayout newLoading;
@@ -416,4 +416,13 @@ public abstract class BaseBestActivity extends BaseFragmentActivity {
     }
 
 
+
+
+    public TextView getCenterTitle() {
+        return centerTitle;
+    }
+
+    public void setCenterTitle(TextView centerTitle) {
+        this.centerTitle = centerTitle;
+    }
 }
