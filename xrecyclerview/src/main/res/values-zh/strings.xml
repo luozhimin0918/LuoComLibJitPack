@@ -1,5 +1,5 @@
 <resources>
-<string name="app_name">爱的日志</string>
+<string name="app_name">xrecyclerview</string>
 <string name="listview_header_hint_normal">下拉刷新</string>
 <string name="listview_header_hint_release">释放立即刷新</string>
 <string name="listview_loading">正在加载...</string>
