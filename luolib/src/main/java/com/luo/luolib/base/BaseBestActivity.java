@@ -24,28 +24,43 @@ import butterknife.ButterKnife;
  */
 public abstract class BaseBestActivity extends BaseFragmentActivity {
     String Tag = "BaseBestActivity";
-     Context mContext;
+    public Context mContext;
 
 
     /**
      * RecyclerView
      */
-    XRecyclerView mRecyclerView;
+    public XRecyclerView mRecyclerView;
     public TextView centerTitle;
-    LinearLayout networkInfo;
-     ImageView errorInfo;
-    LinearLayout newLoading;
-     LinearLayout loadingTextLinear;
-     TextView loadingText;
-    LinearLayout progressLinear;
-     ImageView progreView;
-     ImageView backBUt;
-     SildingFinishLayout sildingFinishLayout;
-     LinearLayout allLinear;
-     LinearLayout xuanfuBar;
-      TextView rightTitle;
-     McoyScrollView productDetailScrollview;
+    public LinearLayout networkInfo;
+    public ImageView errorInfo;
+    public LinearLayout newLoading;
+    public  LinearLayout loadingTextLinear;
+    public  TextView loadingText;
+    public  LinearLayout progressLinear;
+    public   ImageView progreView;
+    public  ImageView backBUt;
+    public  SildingFinishLayout sildingFinishLayout;
+    public  LinearLayout allLinear;
+    public   LinearLayout xuanfuBar;
+    public     TextView rightTitle;
+    public  McoyScrollView productDetailScrollview;
 
+    public TextView getCenterTitle() {
+        return centerTitle;
+    }
+
+    public void setCenterTitle(TextView centerTitle) {
+        this.centerTitle = centerTitle;
+    }
+
+    public Context getmContext() {
+        return mContext;
+    }
+
+    public void setmContext(Context mContext) {
+        this.mContext = mContext;
+    }
 
     public abstract void dosetPromo();
 
@@ -418,11 +433,5 @@ public abstract class BaseBestActivity extends BaseFragmentActivity {
 
 
 
-    public TextView getCenterTitle() {
-        return centerTitle;
-    }
 
-    public void setCenterTitle(TextView centerTitle) {
-        this.centerTitle = centerTitle;
-    }
 }
