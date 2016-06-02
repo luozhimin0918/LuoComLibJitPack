@@ -49,6 +49,7 @@ public class FastJsonRequest<T> extends Request<T> {
             String json = new String(response.data, HttpHeaderParser.parseCharset(response.headers));
 //            Log.d("FastJsonRequest",json);
             KLog.json(json);
+            KLog.d("KLogJsonLongString",json);
             return Response.success(JSON.parseObject(json, mClazz),
                     HttpHeaderParser.parseCacheHeaders(response));
         } catch (UnsupportedEncodingException e) {
