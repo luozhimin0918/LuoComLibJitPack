@@ -17,8 +17,8 @@ import com.readystatesoftware.systembartint.SystemBarTintManager;
  * Created by Administrator on 2015/11/30.
  */
 public class BaseFragmentActivity extends AppCompatActivity {
-    RequestQueue  mQueue;
-    SystemBarTintManager tintManager;
+ public    RequestQueue  mQueue;
+    public  SystemBarTintManager tintManager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
