@@ -1,4 +1,4 @@
-package com.luo.luocomlibjitpack.permission;
+package com.flyco.tablayout.hei.permission;
 
 import android.app.Activity;
 import android.content.Context;

@@ -1,4 +1,4 @@
-package com.luo.luocomlibjitpack.permission;
+package com.flyco.tablayout.hei.permission;
 
 
 import android.content.Intent;
@@ -8,7 +8,7 @@ import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 
 
-import com.luo.luocomlibjitpack.R;
+import com.flyco.tablayout.R;
 
 import java.util.List;
 

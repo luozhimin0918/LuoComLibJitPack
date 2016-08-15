@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.luo.luocomlibjitpack.permission;
+package com.flyco.tablayout.hei.permission;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
