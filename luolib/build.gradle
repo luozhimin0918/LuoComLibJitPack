@@ -33,4 +33,5 @@ dependencies {
     compile project(':xrecyclerview')
     compile 'com.github.zhaokaiqiang.klog:library:1.4.0'
     compile 'com.alibaba:fastjson:1.2.12'
+    compile project(':publiclibrary')
 }
