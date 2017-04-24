@@ -9,4 +9,8 @@ public class JitComLibUtil {
 
         return true;
     }
+
+    public static String isToMe(){
+        return "hao";
+    }
 }
