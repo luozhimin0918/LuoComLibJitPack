@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
+//apply plugin: 'com.github.dcendents.android-maven'
 //apply plugin: 'com.jfrog.bintray'
 group="com.github.luozhimin0918"
 version = "1.1.0"
@@ -27,9 +27,9 @@ dependencies {
     compile 'com.android.support:appcompat-v7:22.2.0'
 }
 
+/*
 def siteUrl = 'https://github.com/hongyangAndroid/android-percent-support-extend'                        // #CONFIG# // project homepage
 def gitUrl = 'https://github.com/hongyangAndroid/android-percent-support-extend.git'                     // #CONFIG# // project git
-group = "com.zhy"
 
 install {
     repositories.mavenInstaller {
@@ -97,4 +97,4 @@ bintray {
         licenses = ["Apache-2.0"]
         publish = true
     }
-}
+}*/
