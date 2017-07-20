@@ -1,6 +1,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">PublicLibrary</string>
 
+    <string name="gravity_left">left</string>
+    <string name="gravity_center">center</string>
+    <string name="gravity_right">right</string>
+
     <string name="volley_load_no_data">暂无数据~</string>
     <string name="volley_load_error">加载错误~</string>
 
@@ -41,4 +45,13 @@
     <string name="radial_numbers_typeface" translatable="false">sans-serif</string>
     <string name="select_hours">Select hours</string>
     <string name="select_minutes">Select minutes</string>
+
+    <string name="pickerview_cancel">取消</string>
+    <string name="pickerview_submit">完成</string>
+    <string name="pickerview_year">年</string>
+    <string name="pickerview_month">月</string>
+    <string name="pickerview_day">日</string>
+    <string name="pickerview_hours">时</string>
+    <string name="pickerview_minutes">分</string>
+    <string name="pickerview_seconds">秒</string>
 </resources>

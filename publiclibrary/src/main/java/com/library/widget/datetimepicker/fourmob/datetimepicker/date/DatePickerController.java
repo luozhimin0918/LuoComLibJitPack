@@ -1,20 +1,20 @@
 package com.library.widget.datetimepicker.fourmob.datetimepicker.date;
 
-abstract interface DatePickerController
+interface DatePickerController
 {
-    public abstract int getFirstDayOfWeek();
+    int getFirstDayOfWeek();
 
-    public abstract int getMaxYear();
+    int getMaxYear();
 
-    public abstract int getMinYear();
+    int getMinYear();
 
-    public abstract SimpleMonthAdapter.CalendarDay getSelectedDay();
+    SimpleMonthAdapter.CalendarDay getSelectedDay();
 
-    public abstract void onDayOfMonthSelected(int year, int month, int day);
+    void onDayOfMonthSelected(int year, int month, int day);
 
-    public abstract void onYearSelected(int year);
+    void onYearSelected(int year);
 
-    public abstract void registerOnDateChangedListener(DatePickerDialog.OnDateChangedListener onDateChangedListener);
+    void registerOnDateChangedListener(DatePickerDialog.OnDateChangedListener onDateChangedListener);
 
-    public abstract void tryVibrate();
+    void tryVibrate();
 }

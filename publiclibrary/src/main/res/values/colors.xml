@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="dialog_bg">#5F5F5F</color>
-    
+
     <color name="progress_wheel_color">#2A87F0</color>
     <color name="float_transparent">#00000000</color>
+    <color name="moiety_transparent">#44000000</color>
     <color name="sweet_dialog_bg_color">#FFFFFF</color>
     <color name="button_text_color">#FFFFFF</color>
     <color name="gray_btn_bg_color">#D0D0D0</color>
@@ -13,6 +14,7 @@
     <color name="red_btn_bg_color">#DD6B55</color>
     <color name="red_btn_bg_pressed_color">#CD5B55</color>
     <color name="error_stroke_color">#F27474</color>
+    <color name="red2">#EA492A</color>
     <color name="success_stroke_color">#A5DC86</color>
     <color name="trans_success_stroke_color">#33A5DC86</color>
     <color name="warning_stroke_color">#F8BB86</color>
@@ -26,6 +28,10 @@
     <color name="white">#ffffffff</color>
     <color name="circle_background">#fff2f2f2</color>
     <color name="line_background">#ffcccccc</color>
+    <color name="line_background1">#d9d9d9</color>
+    <color name="line_background2">#f7f7f7</color>
+    <color name="line_background3">#e6e6e6</color>
+    <color name="line_background4">#f1f1f1</color>
     <color name="done_text_color_normal">#ff333333</color>
     <color name="done_text_color_disabled">#ffcccccc</color>
     <color name="blue">#2A87F0</color>
@@ -38,11 +44,25 @@
     <color name="numbers_text_color">#8c8c8c</color>
 
     <color name="transparent_black">#7F000000</color>
-    <color name="blue_ff">#009aff</color>
-    <color name="pop_background">#a0000000</color>
-    <color name="font_6">#666666</color>
-    <color name="font_8">#888888</color>
-    <color name="update_btn">#3caafa</color>
-    <color name="tuijaian_color_text">#5E6C75</color>
-    <color name="tuijain_color_small_text">#858E94</color>
+
+    <!--App内部应用色值-->
+    <color name="black">#ff000000</color>
+    <color name="theme1">#ffffff</color>
+
+    <color name="statusColor">#BDBDBD</color>
+
+    <color name="pickerview_timebtn_nor">#b8c4cc</color>
+    <color name="pickerview_timebtn_pre">#1c9cf2</color>
+    <color name="pickerview_bg_topbar">#ffffff</color>
+
+    <color name="pickerview_topbar_title">#000000</color>
+    <color name="pickerview_wheelview_textcolor_out">#a8a8a8</color>
+    <color name="pickerview_wheelview_textcolor_center">#2a2a2a</color>
+    <color name="pickerview_wheelview_textcolor_divider">#d5d5d5</color>
+    <color name="pickerview_bgColor_overlay">#60000000</color>
+    <color name="pickerview_bgColor_default">#FFFFFFFF</color>
+
+    <color name="banner_title_color">#ffffff</color>
+
+    <color name="no_more_data">#1c9cf2</color>
 </resources>

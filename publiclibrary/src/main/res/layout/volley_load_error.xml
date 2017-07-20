@@ -1,34 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white"
+    android:background="@color/theme1"
+    android:gravity="center_horizontal"
     android:orientation="vertical">
 
-    <LinearLayout
+    <ImageView
+        android:id="@+id/iv_error"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:orientation="vertical">
+        android:layout_marginTop="100dp"
+        android:src="@mipmap/icon_error_load"/>
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:src="@mipmap/no_data_img" />
+    <TextView
+        android:id="@+id/tv_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#999999"
+        android:textSize="17dp"/>
 
-        <TextView
-            android:id="@+id/id_volley_load_error"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="10dp"
-            android:paddingLeft="8dp"
-            android:text="亲，网络出错了！"
-            android:textColor="#999999"
-            android:textSize="14sp" />
-    </LinearLayout>
-
-
-</RelativeLayout>
+    <TextView
+        android:id="@+id/id_volley_load_error"
+        android:layout_width="150dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_error_reload"
+        android:gravity="center"
+        android:text="重新加载"
+        android:textColor="#666666"
+        android:textSize="18sp"/>
+</LinearLayout>

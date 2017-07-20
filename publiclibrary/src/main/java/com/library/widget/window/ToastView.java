@@ -13,19 +13,19 @@ import com.library.R;
 /**
  * Created by DaiYao on 2016/9/20.
  */
-public class ToastView
-{
+public class ToastView {
     private static Toast toast;
 
-    public static void makeText(Context context, String txt)
-    {
+    public static void makeText(Context context, String txt) {
+        if (context == null) {
+            return;
+        }
         LayoutInflater inflater = LayoutInflater.from(context);
         View view = inflater.inflate(R.layout.widget_toast, null);
         TextView tvTip = (TextView) view.findViewById(R.id.tips_msg);
         tvTip.setText(txt);
 
-        if (toast != null)
-        {
+        if (toast != null) {
             toast.cancel();
         }
         toast = new Toast(context);
@@ -35,15 +35,16 @@ public class ToastView
         toast.show();
     }
 
-    public static void makeText2(Context context, String txt)
-    {
+    public static void makeText2(Context context, String txt) {
+        if (context == null) {
+            return;
+        }
         LayoutInflater inflater = LayoutInflater.from(context);
         View view = inflater.inflate(R.layout.widget_toast2, null);
         TextView tvTip = (TextView) view.findViewById(R.id.tips_msg);
         tvTip.setText(txt);
 
-        if (toast != null)
-        {
+        if (toast != null) {
             toast.cancel();
         }
         toast = new Toast(context);
@@ -52,7 +53,11 @@ public class ToastView
         toast.setView(view);
         toast.show();
     }
+
     public static void makeText3(Context context, String txt) {
+        if (context == null) {
+            return;
+        }
         if (toast != null) {
             toast.cancel();
         }

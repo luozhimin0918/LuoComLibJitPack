@@ -14,7 +14,8 @@
         <FrameLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="left|center_vertical" >
+            android:layout_gravity="center"
+            android:layout_marginRight="80dp">
 
             <ImageView
                 android:id="@+id/pull_to_refresh_image"
@@ -45,7 +46,7 @@
                 android:id="@+id/pull_to_refresh_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="#292838"
+                android:textColor="#A5A5A5"
                 android:singleLine="true"
                 android:textAppearance="?android:attr/textAppearance"
                   />
@@ -54,7 +55,7 @@
                 android:id="@+id/pull_to_refresh_sub_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="#8B8A8A"
+                android:textColor="#A5A5A5"
                 android:textSize="@dimen/pull_font_size"
                 android:singleLine="true" />
         </LinearLayout>

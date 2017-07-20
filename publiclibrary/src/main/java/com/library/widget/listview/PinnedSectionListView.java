@@ -123,7 +123,7 @@ public class PinnedSectionListView extends ListView {
                     destroyPinnedShadow();
                 }
             }
-        };
+        }
 
     };
 
@@ -131,7 +131,8 @@ public class PinnedSectionListView extends ListView {
     private final DataSetObserver mDataSetObserver = new DataSetObserver() {
         @Override public void onChanged() {
             recreatePinnedShadow();
-        };
+        }
+
         @Override public void onInvalidated() {
             recreatePinnedShadow();
         }

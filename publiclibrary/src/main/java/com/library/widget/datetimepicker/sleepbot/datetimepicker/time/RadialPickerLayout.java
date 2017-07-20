@@ -177,7 +177,7 @@ public class RadialPickerLayout extends FrameLayout implements OnTouchListener {
             return;
         }
         mIs24HourMode = is24HourMode;
-        mHideAmPm = Utils.isTouchExplorationEnabled(mAccessibilityManager) ? true : mIs24HourMode;
+        mHideAmPm = Utils.isTouchExplorationEnabled(mAccessibilityManager) || mIs24HourMode;
 
         mVibrate = vibrate;
 

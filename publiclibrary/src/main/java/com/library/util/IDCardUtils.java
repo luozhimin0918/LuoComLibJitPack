@@ -31,7 +31,7 @@ public class IDCardUtils
      */
     private static void toastInfo(Context context, String tip)
     {
-        ToastView.makeText2(context, tip);
+        ToastView.makeText3(context, tip);
     }
 
     public static boolean IDCardValidate(Context context, String IDStr)
@@ -149,14 +149,7 @@ public class IDCardUtils
     {
         Pattern pattern = Pattern.compile("[0-9]*");
         Matcher isNum = pattern.matcher(str);
-        if (isNum.matches())
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
+        return isNum.matches();
     }
 
     /**
