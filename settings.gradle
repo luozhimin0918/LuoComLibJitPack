@@ -1,1 +1,1 @@
-include ':app', ':comlib', ':luolib', ':xrecyclerview', ':kloglibraryMy', ':FlycoTabLayout_Lib', ':percent-support-extends', ':easydialog', ':publiclibrary', ':sauronBase64'
+include ':app', ':comlib', ':luolib', ':xrecyclerview', ':kloglibraryMy', ':FlycoTabLayout_Lib', ':percent-support-extends', ':easydialog', ':publiclibrary', ':sauronBase64', ':convenientbanner'
